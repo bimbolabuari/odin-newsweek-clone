@@ -1,0 +1,64 @@
+.body {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.stories::before  {
+    display: none;
+}
+
+.stories {
+    padding-top: 0px;
+}
+
+
+/* .flex-block {
+    display: flex;
+    flex-direction: row-reverse;
+} */
+
+/* .main {
+    padding-top: 25px;
+}
+
+.div-container {
+    width: 55%;
+ justify-content: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.colwrap-left {
+    width: 45%;
+  justify-content: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.stories::before {
+    display: none;
+}
+
+.flex-block {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.colwrap-right {
+
+}
+
+.top-story {
+    position: absolute;
+    top: 75px;
+}
+
+.h1{
+
+    position: relative;
+    top: 40px;
+
+} */
+

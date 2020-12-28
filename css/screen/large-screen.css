@@ -1,0 +1,156 @@
+.nav-date,
+.ul-section,
+.search-section,
+.trending-section,
+.weather {
+  display: block;
+}
+
+.weather-icon {
+  color: #fff;
+}
+
+.top-header {
+  background-color: #f72210;
+  height: 90px;
+}
+
+.main {
+  padding-top: 0;
+}
+
+.bottom-header {
+  padding-right: 160px;
+  background-color: #fff;
+  border-bottom-color: #f4f5f6;
+  position: relative;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  z-index: 1;
+}
+
+.bottom-header::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: '';
+  display: block;
+  width: 66px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.ul-section {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 19px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.first {
+  border-left: none;
+}
+
+.leaf {
+  border-left-color: #d9d9d9;
+  flex-grow: 1;
+  text-align: center;
+  border-left-width: 1px;
+  border-left-style: solid;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #000;
+  padding: 0 10px;
+}
+
+.leaf a {
+  color: inherit;
+}
+
+.trending-section {
+  border-top-color: #f4f5f7;
+  padding-top: 13px;
+  border-top-width: 2px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-right: -160px;
+  margin-bottom: -10px;
+  position: relative;
+}
+
+.trending {
+  display: flex;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #807f84;
+}
+
+.trending li {
+  color: #000;
+  text-align: center;
+  padding: 0 0 0 30px;
+}
+
+.large-header {
+  display: block;
+  position: relative;
+  z-index: 9999;
+}
+
+.search-section {
+  font-size: 20px;
+  position: absolute;
+  right: 103px;
+}
+
+.icon {
+  position: absolute;
+  right: 75px;
+  top: 20px;
+}
+
+.weather::after {
+  content: '';
+  display: inline-block;
+  margin-left: 2px;
+  width: 9px;
+  height: 9px;
+  color: #fff;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  transform: rotate(45deg);
+  border-top-style: solid;
+  border-right-style: solid;
+}
+
+.d-sm-block {
+  display: none;
+}
+
+.date {
+  margin-top: 10px;
+}
+
+.d-md-block {
+  display: flex;
+}
+
+.right-section {
+  padding-top: 5px;
+}
+
+.newsletter-block,
+.newsletter-image {
+  height: 100%;
+}

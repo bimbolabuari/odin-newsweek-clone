@@ -1,64 +1,64 @@
 .body {
-    font-size: 15px;
-    line-height: 20px;
-}
-
-.stories::before  {
-    display: none;
-}
-
-.stories {
-    padding-top: 0px;
-}
-
-
-/* .flex-block {
-    display: flex;
-    flex-direction: row-reverse;
-} */
-
-/* .main {
-    padding-top: 25px;
-}
-
-.div-container {
-    width: 55%;
- justify-content: right;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-}
-
-.colwrap-left {
-    width: 45%;
-  justify-content: left;
-    padding-left: 15px;
-    padding-right: 15px;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .stories::before {
-    display: none;
+  display: none;
 }
 
-.flex-block {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
+.stories {
+  padding-top: 0;
 }
 
-.colwrap-right {
-
+.d-sm-block {
+  display: none;
 }
 
-.top-story {
-    position: absolute;
-    top: 75px;
+.d-md-block {
+  display: block;
 }
 
-.h1{
+.login {
+  background-image: none;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 15px;
+  margin: 4px 0;
+  cursor: pointer;
+  width: 80px;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #000;
+  border-radius: 24px;
+  font-weight: bold;
+}
 
-    position: relative;
-    top: 40px;
+.subscribe {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 15px;
+  margin: 4px 0;
+  cursor: pointer;
+}
 
-} */
+.subscribe::after {
+  margin-left: 5px;
+  width: 6px;
+  height: 6px;
+  border-top-width: 2px;
+  border-right-width: 2px;
+}
 
+.footer::before,
+.stories::before,
+.opinion-block::before,
+.right-section::before,
+.more-stories-block::before,
+.turn-block::before,
+.magazine-cover::before,
+.editor-container::before,
+.newsletter-container::before,
+.subscribe-container::before {
+  display: none;
+}

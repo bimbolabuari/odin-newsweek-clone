@@ -272,7 +272,7 @@
 .image6,
 .image7 {
   border-radius: 50%;
-  width: 30%;
+  width: 60px;
   height: 60px;
   background: url(../image/newsweek-009.png) center no-repeat #f72210;
   overflow: hidden;
@@ -286,27 +286,26 @@
 
 .image3 {
   background: url(../image/newsweek-012.png) center no-repeat #f72210;
-  width: 25%;
 }
 
 .image4 {
   background: url(../image/newsweek-013.png) center no-repeat #f72210;
-  width: 35%;
+  width: 63px;
 }
 
 .image5 {
   background: url(../image/newsweek-014.png) center no-repeat #f72210;
-  width: 35%;
+  width: 63px;
 }
 
 .image6 {
   background: url(../image/newsweek-015.png) center no-repeat #f72210;
-  width: 20%;
+  width: 63px;
 }
 
 .image7 {
   background: url(../image/newsweek-008.png) center no-repeat #f72210;
-  width: 30%;
+  width: 65px;
 }
 
 .author2 {

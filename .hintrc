@@ -5,7 +5,9 @@
             "pattern": [
                 "**",
                 "!.git/**",
-                "!node_modules/**"
+                "!node_modules/**",
+                "!css/bootstrap/**",
+                "!css/fontawesome/**"
             ]
         }
     },

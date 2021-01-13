@@ -1,6 +1,3 @@
-/* Example of @import use
-This imports the `reset.css` file */
-@import './reset.css';
 @import './styles.css';
 @import './screen/medium-screen..css' screen and (min-width: 768px);
 @import './screen/large-screen.css' screen and (min-width: 992px);

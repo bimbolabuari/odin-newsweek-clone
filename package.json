@@ -10,13 +10,14 @@
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-disallow-bootstrap-properties": "^1.0.8",
     "stylelint-scss": "^3.18.0"
   },
   "scripts": {
-    "format": "npx prettier  --write **/*.{html,js,json,md,json,yaml,yml,jsx}",
-    "format:check": "npx prettier  --check **/*.{html,js,json,md,json,yaml,yml}",
-    "lint": "npx stylelint **/*.css --fix",
-    "lint:check": "npx stylelint **/*.css",
+    "format": "npx prettier  --write \"**/*.{html,js,json,md,json,yaml,yml,jsx}\"",
+    "format:check": "npx prettier  --check \"**/*.{html,js,json,md,json,yaml,yml}\"",
+    "lint": "npx stylelint \"**/*.css\" --fix",
+    "lint:check": "npx stylelint \"**/*.css\"",
     "html-validator": "npx html-validator-cli --quiet --file  index.html"
   }
 }

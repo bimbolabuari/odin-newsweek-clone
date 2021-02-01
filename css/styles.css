@@ -65,8 +65,6 @@
   color: #f72210;
   padding: 8px 15px 9px;
   background-color: rgba(255, 255, 255, 0.9);
-  bottom: 0;
-  left: 0;
   z-index: 1;
 }
 
@@ -121,7 +119,6 @@
   width: 63px;
   height: 63px;
   background: url(../image/newsweek-007.png) center no-repeat #f72210;
-  overflow: hidden;
   margin-right: 15px;
 }
 
@@ -190,8 +187,6 @@
   width: 60px;
   height: 60px;
   background: url(../image/newsweek-009.png) center no-repeat #f72210;
-  overflow: hidden;
-  position: relative;
   margin-right: 15px;
 }
 
@@ -249,7 +244,6 @@
 }
 
 .img {
-  float: left;
   width: 95px;
 }
 
@@ -272,8 +266,6 @@
 
 .travel {
   font-size: 13px;
-  bottom: 0;
-  left: 0;
 }
 
 .tags {
@@ -480,7 +472,6 @@
 }
 
 .footer {
-  background-color: #fff;
   padding-left: -15px;
   padding-right: -15px;
 }
@@ -502,7 +493,6 @@
 }
 
 .second-footer-container {
-  flex-wrap: wrap;
   border-top: 1px solid #d9d9d9;
   font-size: 14px;
   line-height: 15px;
@@ -512,5 +502,4 @@
 .edition-list {
   margin: 6px 0;
   cursor: pointer;
-  color: inherit;
 }

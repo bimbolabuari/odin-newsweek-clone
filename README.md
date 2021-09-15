@@ -2,7 +2,7 @@
 
 This project is [an odin assignment](https://www.theodinproject.com/courses/html-and-css/lessons/using-bootstrap) about cloning the [Newsweek](https://www.newsweek.com/) that demonstrates the knowledge of Semantic HTML, embedding images, mobile-first Front-end framework(Bootstrap).
 
-![screenshot](./image/screenshot.png)
+![screenshot](./image/Screenshot.png)
 
 Additional description about the project and its features.
 
